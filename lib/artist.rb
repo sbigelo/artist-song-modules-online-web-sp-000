@@ -31,8 +31,4 @@ include Memorable::InstanceMethods
   def add_songs(songs)
     songs.each { |song| add_song(song) }
   end
-
-  # def to_param
-  #   name.downcase.gsub(' ', '-')
-  # end
 end
